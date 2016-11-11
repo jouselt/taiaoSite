@@ -1267,6 +1267,30 @@ li.plan-purchase .btn {
         padding: 10px;
     }
 
+    .navbar.navbar-default .navbar-brand {
+        height: auto;
+        padding: 5px;
+    }
+
+    .media.service-box {
+        margin: 5px;
+        padding: 5px;
+        color: #000000;
+    }
+
+    #our-team p {
+        margin: 5px;
+    }
+
+    #our-team .section-title {
+        margin: 5px;
+        padding: 5px;
+    }
+
+    #our-team2 .section-title {
+        margin-left: 1em;
+    }
+
     #hero-banner p {
         font-size: 18px;
         padding: 10px;
