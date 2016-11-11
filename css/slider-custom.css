@@ -1,3 +1,13 @@
+.carousel-inner > .item {
+    position: relative;
+    display: none;
+    -webkit-transition: 0.3s ease-in-out left;
+    -moz-transition: 0.3s ease-in-out left;
+    -o-transition: 0.3s ease-in-out left;
+    transition: 0.3s ease-in-out left;
+}
+
+
 .demo-1 .sl-slider-wrapper {
     position: absolute;
     width: 100%;
@@ -715,3 +725,4 @@
     }
 
 }
+

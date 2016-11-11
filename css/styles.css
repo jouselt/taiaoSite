@@ -215,8 +215,7 @@ ul.nostyle i {
 }
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-    color: #b0d133;
-
+    color: black;
     background: transparent;
 }
 
@@ -255,7 +254,7 @@ ul.nostyle i {
     #main-nav.navbar-default .navbar-nav > li.open > a,
     #main-nav.navbar-default .navbar-nav > li:hover > a {
         background: transparent;
-        color: #b0d133;
+        color: black;
         border: 2px solid #b0d133;
     }
 
