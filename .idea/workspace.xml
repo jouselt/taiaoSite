@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a1e13f2c-671c-41fc-881e-b78048ec7141" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/slider-custom.css" afterPath="$PROJECT_DIR$/css/slider-custom.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styles.css" afterPath="$PROJECT_DIR$/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jquery.slitslider.js" afterPath="$PROJECT_DIR$/js/jquery.slitslider.js" />
     </list>
     <ignored path="taiaoSite.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -285,12 +281,12 @@
       <workItem from="1478640703646" duration="1885000" />
       <workItem from="1478705991531" duration="19924000" />
       <workItem from="1478801951753" duration="3020000" />
-      <workItem from="1478876148196" duration="3555000" />
+      <workItem from="1478876148196" duration="3933000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28384000" />
+    <option name="totallyTimeSpent" value="28762000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1360" height="741" extended-state="6" />
