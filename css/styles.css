@@ -738,27 +738,27 @@ ul.nostyle i {
     background-color: rgba(221, 221, 221, 0.8);
 }
 
-#our-team2 .section-title h2{
+#our-team2 .section-title h2 {
     color: #000;
     font-size: 44px;
     position: relative;
     padding-bottom: 20px;
-    margin: 1em 0 20px;
+    margin: 1em 0 20px 20px;
     display: block;
-    text-align: center;
+    text-align: left;
 
     /*margin-left: 2em;*/
     /*margin-left: 7em;*/
 }
 
-#our-team2 .section-title span{
+#our-team2 .section-title span {
     color: #000;
     font-size: 2rem;
     position: relative;
     padding-bottom: 20px;
-    margin: 1em 0 20px;
+    margin: 1em 0 20px 25px;
     display: block;
-    text-align: center;
+    text-align: left;
 
     /*margin-left: 2em;*/
     /*margin-left: 7em;*/
