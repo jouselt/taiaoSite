@@ -430,7 +430,7 @@ ul.nostyle i {
 .media.service-box {
     margin: 25px 0 36px;
     padding: 20px;
-    padding-left: 86px;
+    padding-left: 30px;
     position: relative;
     /* background: #F2F2F2; */
     color: #000000;
@@ -742,6 +742,15 @@ ul.nostyle i {
     font-size: 2rem;
     margin: 1em;
     text-align: left;
+}
+
+#our-team2 .section-title span {
+    font-size: 2.5rem;
+}
+
+.team-info ul li{
+    font-size: 2rem;
+
 }
 
 #our-team .section-title {
@@ -1335,10 +1344,11 @@ li.plan-purchase .btn {
     font-size: -webkit-xxx-large;
 }
 
-.clientLogo img{
+.clientLogo img {
     width: 100%;
 
 }
+
 .clientLogo {
     width: 100%;
     margin: 2px auto;
@@ -1453,4 +1463,8 @@ li.plan-purchase .btn {
     display: inline-block;
     margin: 0 auto;
     width: 100%;
+}
+
+.features .media-heading {
+    text-align: center;
 }
