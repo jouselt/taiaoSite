@@ -197,6 +197,11 @@ ul.nostyle i {
     background: #b0d133;
     color: #3A3A3A;
     /* font-weight: bold; */
+    -webkit-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    -ms-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    transition: all .2s linear;
 }
 
 .navbar.navbar-default {
@@ -253,9 +258,11 @@ ul.nostyle i {
     #main-nav.navbar-default .navbar-nav > li.active > a,
     #main-nav.navbar-default .navbar-nav > li.open > a,
     #main-nav.navbar-default .navbar-nav > li:hover > a {
-        background: transparent;
-        color: black;
+        background: #b0d133;
+        /*background: rgba(255, 255, 255, 0.5);*/
+        color: white;
         border: 2px solid #b0d133;
+
     }
 
     #main-nav.navbar-default .dropdown-menu {
@@ -695,6 +702,7 @@ ul.nostyle i {
 
 #about p {
     color: #fff;
+    font-size: 1.8rem;
 }
 
 #about h2 {
@@ -745,10 +753,10 @@ ul.nostyle i {
 }
 
 #our-team2 .section-title span {
-    font-size: 2.5rem;
+    font-size: 1.8rem;
 }
 
-.team-info ul li{
+.team-info ul li {
     font-size: 2rem;
 
 }
@@ -757,9 +765,9 @@ ul.nostyle i {
     font-size: 44px;
     position: relative;
     padding-bottom: 20px;
-    margin: 0 4em;
+    /*margin: 0 4em;*/
     display: block;
-    text-align: left;
+    text-align: center;
     color: white;
 }
 
@@ -1353,7 +1361,7 @@ li.plan-purchase .btn {
     width: 100%;
     margin: 2px auto;
     display: block;
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: white;
 }
 
 .noSpaceArround * {
@@ -1468,3 +1476,58 @@ li.plan-purchase .btn {
 .features .media-heading {
     text-align: center;
 }
+
+nav.navbar.shrink {
+    min-height: 35px;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+nav.shrink a {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    font-size: 15px;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+nav.shrink .navbar-brand {
+    font-size: 25px;
+    max-height: 20px;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+nav.shrink .navbar-brand img {
+    height: 50px;
+    overflow: hidden;
+    top: 25%;
+    position: absolute;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+nav.shrink .navbar-toggle {
+    padding: 4px 5px;
+    margin: 8px 15px 8px 0;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
