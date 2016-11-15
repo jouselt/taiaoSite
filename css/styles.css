@@ -23,7 +23,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-    color: #45aed6;
+    color: black;
     -webkit-transition: color 400ms, background-color 400ms;
     -moz-transition: color 400ms, background-color 400ms;
     -o-transition: color 400ms, background-color 400ms;
@@ -795,6 +795,12 @@ ul.nostyle i {
     color: white;
 }
 
+#our-team h4 {
+    font-weight: 600;
+    font-size: 2rem;
+    text-align: center;
+}
+
 #our-team p {
     color: #ffffff;
     font-size: 1.8rem;
@@ -864,7 +870,7 @@ ul.nostyle i {
 }
 
 #our-team .social-icons {
-    margin-left: 10%;
+    /*margin-left: 10%;*/
 }
 
 #our-team .social-icons > li {
@@ -881,7 +887,7 @@ ul.nostyle i {
 }
 
 #our-team .social-icons > li > a {
-    display: block;
+
     width: 15px;
     height: 30px;
     line-height: 32px;
@@ -1517,7 +1523,7 @@ nav.navbar.shrink {
 nav.shrink a {
     padding-top: 10px !important;
     padding-bottom: 10px !important;
-    font-size: 15px;
+    font-size: 12px;
     -webkit-transition: all .5s ease-in-out;
     -o-transition: all .5s ease-in-out;
     -ms-transition: all .5s ease-in-out;
@@ -1526,7 +1532,7 @@ nav.shrink a {
 }
 
 nav.shrink .navbar-brand {
-    font-size: 25px;
+    font-size: 20px;
     max-height: 20px;
     margin: 0;
     padding: 0;
@@ -1550,7 +1556,7 @@ nav.shrink .navbar-brand img {
 }
 
 nav.shrink .navbar-toggle {
-    padding: 4px 5px;
+    padding: 4px 2px;
     margin: 8px 15px 8px 0;
     -webkit-transition: all .5s ease-in-out;
     -o-transition: all .5s ease-in-out;
@@ -1558,4 +1564,3 @@ nav.shrink .navbar-toggle {
     -moz-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out;
 }
-
