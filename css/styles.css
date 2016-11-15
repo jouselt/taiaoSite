@@ -55,6 +55,8 @@ hr {
 
 .section-header {
     margin-bottom: 50px;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 .section-header p {
@@ -745,10 +747,8 @@ ul.nostyle i {
     padding-bottom: 20px;
     margin: 1em 0 20px 20px;
     display: block;
-    text-align: left;
+    text-align: center;
 
-    /*margin-left: 2em;*/
-    /*margin-left: 7em;*/
 }
 
 #our-team2 .section-title span {
@@ -773,10 +773,12 @@ ul.nostyle i {
 
 #our-team2 .section-title span {
     font-size: 1.8rem;
+    text-align: center;
 }
 
 .team-info ul li {
     font-size: 1.8rem;
+    text-align: left;
 }
 
 #our-team .section-title {
@@ -1372,14 +1374,17 @@ li.plan-purchase .btn {
 
 .clientLogo img {
     width: 100%;
+    background-color: black;
 
 }
 
 .clientLogo {
     width: 100%;
-    margin: 2px auto;
+    vertical-align: middle;
+    margin: 5px 5px;
+    padding: 1em;
     display: block;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.9);
 }
 
 .noSpaceArround * {
