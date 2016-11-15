@@ -265,7 +265,7 @@ ul.nostyle i {
         background: #b0d133;
         color: white;
         border: 2px solid #b0d133;
-        height: 100%;
+        height: 72px;
         padding: 1em 1em;
     }
 
@@ -781,14 +781,14 @@ ul.nostyle i {
 .team-info ul li {
     font-size: 1.8rem;
     text-align: left;
-    color:#464545
+    color: #464545
 }
 
 #our-team .section-title {
     font-size: 44px;
     position: relative;
     padding-bottom: 20px;
-    padding-top:60px;
+    padding-top: 60px;
     /*margin: 0 4em;*/
     display: block;
     text-align: center;
