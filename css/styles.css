@@ -67,11 +67,11 @@ hr {
 .section-header .section-title {
     font-size: 44px;
     position: relative;
-    padding-bottom: 20px;
-    margin: 0 0 20px;
+    padding-bottom: 0px;
+    margin: 0 0 0px;
     display: block;
     text-align: center;
-    color: #b0d133;
+    color: #5e5e5e;
 }
 
 .section-header .section-title:before {
@@ -432,7 +432,7 @@ ul.nostyle i {
 }
 
 #services, #features {
-    padding: 100px 0 75px;
+    padding: 50px 0 75px;
     background: rgb(222, 222, 222);
 }
 
@@ -659,7 +659,7 @@ ul.nostyle i {
 }
 
 #testimonial {
-    background: #848484;
+    background: #fff;
     background-size: cover;
     padding: 100px 0;
     color: #fff;
@@ -667,7 +667,7 @@ ul.nostyle i {
 }
 
 #testimonial h2, #testimonial p {
-    color: #fff;
+    color: #848484;
 }
 
 #testimonial h4 {
@@ -741,7 +741,7 @@ ul.nostyle i {
 }
 
 #our-team2 .section-title h2 {
-    color: #000;
+    color: #5e5e5e;
     font-size: 44px;
     position: relative;
     padding-bottom: 20px;
@@ -752,7 +752,7 @@ ul.nostyle i {
 }
 
 #our-team2 .section-title span {
-    color: #000;
+    color: #464545;
     font-size: 2rem;
     position: relative;
     padding-bottom: 20px;
@@ -779,6 +779,7 @@ ul.nostyle i {
 .team-info ul li {
     font-size: 1.8rem;
     text-align: left;
+    color:#464545
 }
 
 #our-team .section-title {
@@ -1287,7 +1288,7 @@ li.plan-purchase .btn {
     }
 
     .navbar-default .navbar-nav > li > a {
-        color: #9E9E9E;
+        color: #585858;
     }
 }
 
@@ -1498,6 +1499,7 @@ li.plan-purchase .btn {
 
 .features .media-heading {
     text-align: center;
+    color: #555;
 }
 
 nav.navbar.shrink {
