@@ -247,7 +247,7 @@ ul.nostyle i {
 
 @media only screen and (min-width: 768px) {
     #main-nav.navbar-default .container {
-        padding: 2em 1em;
+        padding: 0 1em;
     }
 
     #main-nav.navbar-default .navbar-nav > li > a {
