@@ -247,24 +247,26 @@ ul.nostyle i {
 
 @media only screen and (min-width: 768px) {
     #main-nav.navbar-default .container {
-        padding: 0 1em;
+        /*padding: 2em 1em;*/
+        height: 72px;
     }
 
     #main-nav.navbar-default .navbar-nav > li > a {
     }
 
     .navbar-default .navbar-nav > li > a {
-        color: black;
+        color: #626262;
+        height: 72px;
     }
 
     #main-nav.navbar-default .navbar-nav > li.active > a,
     #main-nav.navbar-default .navbar-nav > li.open > a,
     #main-nav.navbar-default .navbar-nav > li:hover > a {
         background: #b0d133;
-        /*background: rgba(255, 255, 255, 0.5);*/
         color: white;
         border: 2px solid #b0d133;
-
+        height: 100%;
+        padding: 1em 1em;
     }
 
     #main-nav.navbar-default .dropdown-menu {
@@ -1535,7 +1537,7 @@ nav.shrink .navbar-brand {
 nav.shrink .navbar-brand img {
     height: 50px;
     overflow: hidden;
-    top: 25%;
+
     position: absolute;
     -webkit-transition: all .5s ease-in-out;
     -o-transition: all .5s ease-in-out;
