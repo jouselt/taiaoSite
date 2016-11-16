@@ -259,6 +259,11 @@ ul.nostyle i {
         height: 72px;
     }
 
+    .shrink * {
+        margin: 0 !important;
+        padding: 0 0.5em !important;
+    }
+
     #main-nav.navbar-default .navbar-nav > li.active > a,
     #main-nav.navbar-default .navbar-nav > li.open > a,
     #main-nav.navbar-default .navbar-nav > li:hover > a {
@@ -267,6 +272,7 @@ ul.nostyle i {
         border: 2px solid #b0d133;
         height: 72px;
         padding: 1em 1em;
+        margin: 1em 0;
     }
 
     #main-nav.navbar-default .dropdown-menu {
@@ -1522,7 +1528,7 @@ nav.navbar.shrink {
 nav.shrink a {
     padding-top: 10px !important;
     padding-bottom: 10px !important;
-    font-size: 12px;
+    font-size: 15px;
     -webkit-transition: all .5s ease-in-out;
     -o-transition: all .5s ease-in-out;
     -ms-transition: all .5s ease-in-out;
@@ -1531,7 +1537,7 @@ nav.shrink a {
 }
 
 nav.shrink .navbar-brand {
-    font-size: 20px;
+    font-size: 25px;
     max-height: 20px;
     margin: 0;
     padding: 0;
@@ -1545,7 +1551,7 @@ nav.shrink .navbar-brand {
 nav.shrink .navbar-brand img {
     height: 50px;
     overflow: hidden;
-
+    top: 25%;
     position: absolute;
     -webkit-transition: all .5s ease-in-out;
     -o-transition: all .5s ease-in-out;
@@ -1555,11 +1561,16 @@ nav.shrink .navbar-brand img {
 }
 
 nav.shrink .navbar-toggle {
-    padding: 4px 2px;
+    padding: 4px 5px;
     margin: 8px 15px 8px 0;
     -webkit-transition: all .5s ease-in-out;
     -o-transition: all .5s ease-in-out;
     -ms-transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out;
+}
+
+.scroll.active {
+    height: 100%;
+    background-color: rgb(176, 209, 48);
 }
