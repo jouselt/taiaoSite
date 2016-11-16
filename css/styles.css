@@ -997,8 +997,19 @@ ul.nostyle i {
     border-radius: 0 3px 0 0;
 }
 
+.nav .navbar-nav {
+    display: flex;
+
+}
+
 .navbar-nav {
     margin: 0;
+    display: flex;
+
+}
+
+.scroll {
+    align-items: stretch;
 }
 
 .tab-content {
