@@ -868,7 +868,6 @@ ul.nostyle i {
     text-align: center;
 }
 
-
 .team-info a:hover {
     color: #01AB31;
 }
@@ -1597,4 +1596,24 @@ nav.shrink .navbar-toggle {
 .scroll.active {
     height: 100%;
     background-color: rgb(176, 209, 48);
+}
+
+.service-img {
+    max-width: 80px;
+    border: 2px rgb(176, 209, 48) solid;
+    border-radius: 50%;
+    padding: 4px;
+}
+
+.service-img:hover {
+    max-width: 79px;
+    border: 3px rgb(176, 209, 48) solid;
+    border-radius: 50%;
+    padding: 4px;
+    -webkit-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+    -ms-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out;
+    background-color: white;
 }
