@@ -1616,6 +1616,7 @@ nav.shrink .navbar-toggle {
     -moz-transition: all .1s ease-in-out;
     transition: all .1s ease-in-out;
     background-color: white;
+    cursor: pointer;
 }
 
 p.damian {
@@ -1625,4 +1626,10 @@ p.damian {
     color: #282828 !important;
     line-height: 26px !important;
     margin: 10px !important;
+}
+
+.toModal:hover {
+    color: #01AB31;
+    /*text-decoration: underline ;*/
+    cursor: pointer;
 }
