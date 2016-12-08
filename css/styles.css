@@ -1409,6 +1409,24 @@ li.plan-purchase .btn {
 .fa-caret-right:before {
     content: "\f0da";
     font-size: -webkit-xxx-large;
+
+}
+
+.alianceLogo {
+    height: 100%;
+    width: auto;
+    vertical-align: middle;
+    /*margin: 5px 5px;*/
+    /*padding: 1em;*/
+    display: block;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.alianceLogo img {
+    height: 100%;
+    background-color: black;
+    width: auto;
+
 }
 
 .clientLogo img {
@@ -1646,4 +1664,9 @@ i.socialNetworks {
     border: 0;
     font-size: 22px;
     margin: 0 1em;
+}
+
+#main-nav.navbar-default .navbar-nav > li.active > a, #main-nav.navbar-default .navbar-nav > li.open > a, #main-nav.navbar-default .navbar-nav > li:hover > a {
+    line-height: 4rem;
+    border: 0;
 }
