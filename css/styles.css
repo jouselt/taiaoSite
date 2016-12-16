@@ -1622,6 +1622,9 @@ nav.shrink .navbar-toggle {
     border: 2px rgb(176, 209, 48) solid;
     border-radius: 50%;
     padding: 4px;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
 }
 
 .service-img:hover {
@@ -1636,6 +1639,10 @@ nav.shrink .navbar-toggle {
     transition: all .1s ease-in-out;
     background-color: white;
     cursor: pointer;
+}
+
+.service-icon{
+
 }
 
 p.damian {
